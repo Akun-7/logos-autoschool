@@ -1,0 +1,314 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Автошкола «ЛОГОС» — Жалал-Абад | Обучение вождению, рассрочка без процентов</title>
+  <meta name="description" content="Автошкола «ЛОГОС» в Жалал-Абаде: квалифицированные преподаватели, опытные и вежливые инструкторы, рассрочка без процентов, онлайн-тренажёр ПДД и запись на курсы.">
+  <meta name="theme-color" content="#4b2a8c">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Автошкола «ЛОГОС» — Жалал-Абад">
+  <meta property="og:description" content="Квалифицированные преподаватели, вежливые инструкторы, рассрочка без процентов.">
+  <meta property="og:locale" content="ru_RU">
+  <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/styles.css">
+  <script type="application/ld+json" id="ld-json">
+  {"@context":"https://schema.org","@type":"DrivingSchool","name":"Автошкола «ЛОГОС»",
+   "address":{"@type":"PostalAddress","streetAddress":"ул. Токтогул 32","addressLocality":"Жалал-Абад","addressCountry":"KG"},
+   "sameAs":["https://www.instagram.com/autoschooljld/"]}
+  </script>
+</head>
+<body>
+  <a class="skip" href="#main" data-i18n="skip">Перейти к содержимому</a>
+  <div id="dev-banner" class="dev-banner" hidden></div>
+
+  <header class="header" id="top">
+    <div class="container header__in">
+      <a class="brand" href="#top" aria-label="ЛОГОС">
+        <img class="brand__logo" id="brand-logo" src="assets/logo.svg" alt="" width="44" height="44">
+        <span class="brand__name">ЛОГОС<small data-i18n="hero.badge">Жалал-Абад · Автошкола</small></span>
+      </a>
+      <nav class="nav" id="nav" aria-label="Главное меню">
+        <a href="#why" data-i18n="nav.why">О школе</a>
+        <a href="#courses" data-i18n="nav.courses">Курсы</a>
+        <a href="#calc" data-i18n="nav.calc">Рассрочка</a>
+        <a href="#process" data-i18n="nav.process">Как учиться</a>
+        <a href="#team" data-i18n="nav.team">Команда</a>
+        <a href="#trainer" data-i18n="nav.trainer">Тренажёр ПДД</a>
+        <a href="#faq" data-i18n="nav.faq">Вопросы</a>
+        <a href="#contact" data-i18n="nav.contact">Контакты</a>
+      </nav>
+      <div class="header__tools">
+        <div class="lang" role="group" aria-label="Язык сайта" data-i18n-aria="lang.label">
+          <button type="button" class="lang__btn" data-lang="ru" aria-pressed="true">RU</button>
+          <button type="button" class="lang__btn" data-lang="ky" aria-pressed="false">KY</button>
+        </div>
+        <a class="btn btn--sm btn--call js-phone" href="#contact" hidden><span data-i18n="btn.call">Позвонить</span></a>
+        <button type="button" class="burger" id="burger" aria-expanded="false" aria-controls="nav" aria-label="Меню" data-i18n-aria="nav.menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="container hero__in">
+        <div class="hero__text">
+          <p class="badge" data-i18n="hero.badge">Жалал-Абад · Автошкола</p>
+          <h1 id="hero-title" data-i18n="hero.title">Автошкола «ЛОГОС» в Жалал-Абаде</h1>
+          <p class="lead" data-i18n="hero.sub">Квалифицированные преподаватели, опытные и вежливые инструкторы. Рассрочка без процентов и онлайн-тренажёр ПДД.</p>
+          <div class="hero__cta">
+            <a class="btn btn--primary" href="#contact" data-i18n="hero.cta1">Записаться на курс</a>
+            <a class="btn btn--ghost" href="#calc" data-i18n="hero.cta2">Рассчитать рассрочку</a>
+          </div>
+          <ul class="chips">
+            <li data-i18n="hero.p1">Рассрочка без %</li>
+            <li data-i18n="hero.p2">Вежливые инструкторы</li>
+            <li data-i18n="hero.p3">Тренажёр ПДД онлайн</li>
+          </ul>
+        </div>
+        <aside class="hero__card" aria-labelledby="quick-title">
+          <h2 id="quick-title" data-i18n="hero.card.title">Быстрая запись</h2>
+          <p data-i18n="hero.card.text">Оставьте номер — перезвоним и подберём группу.</p>
+          <form id="quick-form" class="quick" novalidate>
+            <label class="sr" for="quick-phone" data-i18n="form.phone">Телефон</label>
+            <input id="quick-phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" placeholder="+996 ___ __ __ __" data-i18n-placeholder="form.phone.ph">
+            <button class="btn btn--primary" type="submit" data-i18n="hero.card.cta">Оставить заявку</button>
+          </form>
+        </aside>
+      </div>
+    </section>
+
+    <!-- WHY -->
+    <section class="section" id="why" aria-labelledby="why-title">
+      <div class="container">
+        <header class="section__head">
+          <h2 id="why-title" data-i18n="why.title">Почему выбирают «ЛОГОС»</h2>
+          <p data-i18n="why.sub">Учим спокойно, понятно и без лишнего стресса.</p>
+        </header>
+        <div class="grid grid--3" id="why-grid"></div>
+      </div>
+    </section>
+
+    <!-- COURSES -->
+    <section class="section section--alt" id="courses" aria-labelledby="courses-title">
+      <div class="container">
+        <header class="section__head">
+          <h2 id="courses-title" data-i18n="courses.title">Курсы обучения</h2>
+          <p data-i18n="courses.sub">Выберите категорию и оставьте заявку.</p>
+        </header>
+        <div class="grid grid--courses" id="courses-grid"></div>
+        <div id="groups-wrap" hidden>
+          <h3 class="subtitle" data-i18n="groups.title">Ближайшие группы</h3>
+          <div class="grid grid--3" id="groups-grid"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CALCULATOR -->
+    <section class="section" id="calc" aria-labelledby="calc-title">
+      <div class="container">
+        <header class="section__head">
+          <h2 id="calc-title" data-i18n="calc.title">Калькулятор рассрочки</h2>
+          <p data-i18n="calc.sub">Рассрочка без процентов: посчитайте ежемесячный платёж.</p>
+        </header>
+        <div class="calc">
+          <form class="calc__form" id="calc-form" novalidate>
+            <div class="field" id="calc-cat-wrap">
+              <label for="calc-cat" data-i18n="calc.category">Категория</label>
+              <select id="calc-cat"></select>
+            </div>
+            <div class="field">
+              <label for="calc-amount" data-i18n="calc.amount">Сумма договора, сом</label>
+              <input id="calc-amount" type="number" inputmode="numeric" min="0" step="100" placeholder="например 15000" data-i18n-placeholder="calc.amount.ph">
+            </div>
+            <div class="field">
+              <label for="calc-down"><span data-i18n="calc.down">Первоначальный взнос</span>: <output id="calc-down-out">30%</output></label>
+              <input id="calc-down" type="range" min="0" max="90" step="5" value="30">
+            </div>
+            <div class="field">
+              <label for="calc-months"><span data-i18n="calc.months">Срок, месяцев</span>: <output id="calc-months-out">3</output></label>
+              <input id="calc-months" type="range" min="1" max="12" step="1" value="3">
+            </div>
+            <p class="note" data-i18n="calc.note">Расчёт ориентировочный.</p>
+          </form>
+          <div class="calc__res" id="calc-res" aria-live="polite"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROCESS -->
+    <section class="section section--alt" id="process" aria-labelledby="process-title">
+      <div class="container">
+        <header class="section__head">
+          <h2 id="process-title" data-i18n="process.title">Как проходит обучение</h2>
+          <p data-i18n="process.sub">Пять простых шагов от заявки до экзамена.</p>
+        </header>
+        <ol class="steps" id="steps"></ol>
+      </div>
+    </section>
+
+    <!-- TEAM -->
+    <section class="section" id="team" aria-labelledby="team-title">
+      <div class="container">
+        <header class="section__head">
+          <h2 id="team-title" data-i18n="team.title">Команда и автопарк</h2>
+          <p data-i18n="team.sub">Люди и машины, с которыми вы научитесь водить уверенно.</p>
+        </header>
+        <div class="grid grid--3" id="team-grid"></div>
+        <div class="grid grid--4" id="instructors-grid" hidden></div>
+        <div class="gallery" id="gallery" hidden></div>
+      </div>
+    </section>
+
+    <!-- TRAINER -->
+    <section class="section section--alt" id="trainer" aria-labelledby="trainer-title">
+      <div class="container">
+        <header class="section__head">
+          <h2 id="trainer-title" data-i18n="trainer.title">Тренажёр ПДД</h2>
+          <p data-i18n="trainer.sub">Тренируйтесь бесплатно.</p>
+        </header>
+        <div class="quiz" id="quiz">
+          <p class="note" data-i18n="trainer.disclaimer">Это учебный тренажёр.</p>
+          <div id="quiz-body"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- REVIEWS -->
+    <section class="section" id="reviews" aria-labelledby="reviews-title">
+      <div class="container">
+        <header class="section__head">
+          <h2 id="reviews-title" data-i18n="reviews.title">Отзывы учеников</h2>
+          <p data-i18n="reviews.sub">Что говорят о нас ученики.</p>
+        </header>
+        <div class="grid grid--3" id="reviews-grid"></div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section section--alt" id="faq" aria-labelledby="faq-title">
+      <div class="container container--narrow">
+        <header class="section__head">
+          <h2 id="faq-title" data-i18n="faq.title">Частые вопросы</h2>
+          <p data-i18n="faq.sub">Если не нашли ответ — позвоните или напишите нам.</p>
+        </header>
+        <div class="faq" id="faq-list"></div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section" id="contact" aria-labelledby="contact-title">
+      <div class="container">
+        <header class="section__head">
+          <h2 id="contact-title" data-i18n="contact.title">Контакты и запись</h2>
+          <p data-i18n="contact.sub">Оставьте заявку — мы свяжемся с вами в ближайшее время.</p>
+        </header>
+        <div class="contact">
+          <div class="contact__form card">
+            <h3 data-i18n="form.title">Заявка на обучение</h3>
+            <form id="apply-form" novalidate>
+              <div class="field">
+                <label for="f-name" data-i18n="form.name">Ваше имя</label>
+                <input id="f-name" name="name" type="text" autocomplete="name" required minlength="2" placeholder="Например, Айбек" data-i18n-placeholder="form.name.ph">
+                <p class="err" id="err-name" role="alert" hidden></p>
+              </div>
+              <div class="field">
+                <label for="f-phone" data-i18n="form.phone">Телефон</label>
+                <input id="f-phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" required placeholder="+996 ___ __ __ __" data-i18n-placeholder="form.phone.ph">
+                <p class="err" id="err-phone" role="alert" hidden></p>
+              </div>
+              <div class="row2">
+                <div class="field">
+                  <label for="f-category" data-i18n="form.category">Категория</label>
+                  <select id="f-category" name="category"></select>
+                </div>
+                <div class="field">
+                  <label for="f-trans" data-i18n="form.trans">Коробка передач</label>
+                  <select id="f-trans" name="trans">
+                    <option value="" data-i18n="form.trans.any">Не важно</option>
+                    <option value="manual" data-i18n="form.trans.manual">Механика</option>
+                    <option value="auto" data-i18n="form.trans.auto">Автомат</option>
+                  </select>
+                </div>
+              </div>
+              <div class="field">
+                <label for="f-time" data-i18n="form.time">Удобное время занятий</label>
+                <select id="f-time" name="time">
+                  <option value="" data-i18n="form.time.any">Любое</option>
+                  <option value="morning" data-i18n="form.time.morning">Утро</option>
+                  <option value="day" data-i18n="form.time.day">День</option>
+                  <option value="evening" data-i18n="form.time.evening">Вечер</option>
+                </select>
+              </div>
+              <div class="field">
+                <label for="f-comment" data-i18n="form.comment">Комментарий (необязательно)</label>
+                <textarea id="f-comment" name="comment" rows="3" maxlength="500"></textarea>
+              </div>
+              <div class="hp" aria-hidden="true"><label>Не заполняйте <input type="text" name="website" tabindex="-1" autocomplete="off"></label></div>
+              <div class="field field--check">
+                <input id="f-consent" name="consent" type="checkbox" required>
+                <label for="f-consent"><span data-i18n="form.consent">Я согласен(на) на обработку персональных данных</span> (<a href="#privacy" id="privacy-link" data-i18n="form.privacy">Политика конфиденциальности</a>)</label>
+                <p class="err" id="err-consent" role="alert" hidden></p>
+              </div>
+              <p class="err" id="err-send" role="alert" hidden></p>
+              <button class="btn btn--primary btn--block" type="submit" id="f-submit" data-i18n="form.submit">Отправить заявку</button>
+            </form>
+            <div class="result" id="form-result" role="status" aria-live="polite" hidden></div>
+          </div>
+
+          <div class="contact__info">
+            <div class="card">
+              <h3 data-i18n="contact.info">Как нас найти</h3>
+              <dl class="info" id="info-list"></dl>
+              <div class="socials" id="socials"></div>
+            </div>
+            <div class="map card">
+              <h3 data-i18n="contact.map">Показать на карте</h3>
+              <iframe id="map-frame" title="Карта" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="about:blank"></iframe>
+              <p class="maplinks" id="map-links"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__in">
+      <div>
+        <strong data-i18n="footer.about">Автошкола «ЛОГОС», Жалал-Абад.</strong>
+        <p class="small" id="footer-address"></p>
+        <p class="small" id="footer-license"></p>
+        <p class="small" data-i18n="footer.disclaimer">Информация на сайте носит справочный характер.</p>
+      </div>
+      <div class="footer__r">
+        <p class="small">© <span id="year"></span> <span data-i18n="footer.rights">Все права защищены.</span></p>
+        <a class="small" href="#top" data-i18n="footer.top">Наверх</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Плавающие кнопки -->
+  <div class="fab" id="fab">
+    <a class="fab__btn fab__wa js-whatsapp" href="#contact" hidden aria-label="WhatsApp">WA</a>
+    <a class="fab__btn fab__call js-phone" href="#contact" hidden aria-label="Позвонить">&#9742;</a>
+    <a class="fab__btn fab__apply" href="#contact" aria-label="Записаться">&#9998;</a>
+  </div>
+
+  <dialog id="privacy-dialog" aria-labelledby="privacy-title">
+    <h2 id="privacy-title" data-i18n="privacy.title">Политика конфиденциальности</h2>
+    <p data-i18n="privacy.text">Мы используем ваше имя и телефон только для связи по вашей заявке.</p>
+    <button type="button" class="btn btn--primary" id="privacy-close" data-i18n="privacy.close">Закрыть</button>
+  </dialog>
+
+  <noscript><p style="padding:16px;text-align:center">Для работы сайта включите JavaScript. Автошкола «ЛОГОС», Жалал-Абад, ул. Токтогул 32.</p></noscript>
+
+  <script src="js/config.js"></script>
+  <script src="js/i18n.js"></script>
+  <script src="js/quiz-data.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
