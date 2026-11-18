@@ -200,7 +200,7 @@
     var el = $("#ld-json"); if (!el) return;
     var data = {
       "@context": "https://schema.org", "@type": "DrivingSchool", name: "Автошкола «" + (CFG.brandName || "ЛОГОС") + "»",
-      address: { "@type": "PostalAddress", streetAddress: "ул. Токтогул 32", addressLocality: "Жалал-Абад", addressCountry: "KG" },
+      address: { "@type": "PostalAddress", streetAddress: "ул. Токтогул 32", addressLocality: "Манас (Жалал-Абад)", addressCountry: "KG" },
       sameAs: []
     };
     if (CFG.phone) data.telephone = CFG.phone;
